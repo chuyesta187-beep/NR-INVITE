@@ -1,7 +1,7 @@
 {
   "name": "nr-invite",
   "version": "1.0.0",
-  "description": "NR INVITE Discord Bot",
+  "description": "NR INVITE - Sistema avanzado de invitaciones, reportes y configuración para Discord",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -12,7 +12,6 @@
   "dependencies": {
     "discord.js": "^14.25.1",
     "dotenv": "^17.2.1",
-    "express": "^5.1.0",
-    "express-session": "^1.18.2"
+    "nodemailer": "^7.0.6"
   }
 }
