@@ -1,28 +1,18 @@
 {
   "name": "nr-invite",
   "version": "1.0.0",
-  "description": "NR INVITE - Advanced Discord Invitation System with Dashboard, invite tracking and web support",
+  "description": "NR INVITE - Bot de invitaciones y Dashboard oficial",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": ">=20.0.0"
   },
-  "keywords": [
-    "discord",
-    "discord-bot",
-    "discordjs",
-    "invite-tracking",
-    "dashboard",
-    "nr-invite"
-  ],
-  "author": "NR",
-  "license": "MIT",
   "dependencies": {
     "discord.js": "^14.21.0",
     "express": "^5.1.0",
+    "express-session": "^1.18.2",
     "nodemailer": "^7.0.5"
   }
 }
