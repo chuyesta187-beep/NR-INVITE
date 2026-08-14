@@ -1,0 +1,48 @@
+# ============================================================
+# NR INVITE
+# Git Ignore
+# ============================================================
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+
+# Cache
+.cache/
+.npm/
+
+# Render / deploy
+.render/
+
+# Datos locales temporales
+data/*.tmp
+data/*.backup
+
+# Secretos
+secrets/
+*.key
+*.pem
